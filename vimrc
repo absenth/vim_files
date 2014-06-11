@@ -10,6 +10,7 @@ set smartindent         " configure smartintent
 set tabstop=4           " replace <tab> with four spaces
 set shiftwidth=4
 set expandtab
+set spell
 
 colorscheme distinguished
 
