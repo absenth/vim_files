@@ -22,6 +22,9 @@ set colorcolumn=80
 set signcolumn=yes
 
 let mapleader = " "
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gu :diffget //2<CR>
+nmap <leader>gs :G<CR>
 
 " arrow keys are for lusers.  lusers are on other people's systems
 inoremap  <Up>     <NOP>
@@ -48,12 +51,16 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin('~/.vim/plugged')
 
 Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 
 " Initialize plugin system
 call plug#end()
 
-colorscheme nord
+colorscheme gruvbox
+set background=dark
 
 fun! TrimWhitespace()
     let l:save = winsaveview()
