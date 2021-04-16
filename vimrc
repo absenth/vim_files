@@ -22,6 +22,8 @@ set colorcolumn=80
 set signcolumn=yes
 
 let mapleader = " "
+let g:indentLine_char = '⦙'
+
 nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu :diffget //2<CR>
 nmap <leader>gs :G<CR>
@@ -53,6 +55,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'yggdroot/indentline'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 
