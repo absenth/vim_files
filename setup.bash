@@ -9,5 +9,5 @@ for f in `find . -regex ".*\.vim$\|.*\.lua$"`; do
     ln -s $(PWD)/$f ~/.vim/$f
 done
 
-ln -s $(PWD)/editorconfig $HOME/.editorconfig
-ln -s $(PWD)/yamllint-conf $HOME/.config/yamllint/config
+ln -s $(PWD)/configs/editorconfig $HOME/.editorconfig
+ln -s $(PWD)/configs/yamllint-conf $HOME/.config/yamllint/config
