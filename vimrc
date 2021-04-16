@@ -23,6 +23,11 @@ set signcolumn=yes
 
 let mapleader = " "
 let g:indentLine_char = '⦙'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+let g:ale_lint_on_text_changed = 'never'
+
 
 nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu :diffget //2<CR>
@@ -56,6 +61,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'yggdroot/indentline'
+Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 
