@@ -11,3 +11,4 @@ done
 
 ln -s $(PWD)/configs/editorconfig $HOME/.editorconfig
 ln -s $(PWD)/configs/yamllint-conf $HOME/.config/yamllint/config
+ln -s $(PWD)/vimrc $HOME/.vimrc
