@@ -21,6 +21,8 @@ set scrolloff=8
 set colorcolumn=80
 set signcolumn=yes
 
+let mapleader = " "
+
 " arrow keys are for lusers.  lusers are on other people's systems
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
