@@ -1,37 +1,4 @@
-
-" setup non-stupid tabs
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-
-" setup some things that should be default but aren't
-set nu
-set relativenumber
-set noerrorbells
-set nohlsearch
-set hidden
-set nowrap
-set noswapfile
-set nobackup
-set undodir=/.vim/undodir
-set undofile
-set incsearch
-set scrolloff=8
-set colorcolumn=80
-set signcolumn=yes
-
 let mapleader = " "
-let g:indentLine_char = '⦙'
-let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = '⚠'
-let g:ale_lint_on_text_changed = 'never'
-
-
-nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
-nmap <leader>gs :G<CR>
 
 " arrow keys are for lusers.  lusers are on other people's systems
 inoremap  <Up>     <NOP>
@@ -57,8 +24,12 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 " Setup VimPlug stuff
 call plug#begin('~/.vim/plugged')
 
+" Color Schemes
 Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
+Plug 'ayu-theme/ayu-vim'
+
+" Plugins
 Plug 'editorconfig/editorconfig-vim'
 Plug 'yggdroot/indentline'
 Plug 'dense-analysis/ale'
@@ -67,9 +38,6 @@ Plug 'vim-airline/vim-airline'
 
 " Initialize plugin system
 call plug#end()
-
-colorscheme gruvbox
-set background=dark
 
 fun! TrimWhitespace()
     let l:save = winsaveview()
