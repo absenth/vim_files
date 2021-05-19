@@ -1,2 +1,2 @@
-colorscheme gruvbox
+colorscheme nord
 set background=dark

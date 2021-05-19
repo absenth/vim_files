@@ -26,6 +26,10 @@ call plug#begin('~/.vim/plugged')
 
 " Color Schemes
 Plug 'arcticicestudio/nord-vim'
+Plug 'gosukiwi/vim-atom-dark'
+Plug 'jacoborus/tender.vim'
+Plug 'rakr/vim-one'
+Plug 'jnurmine/zenburn'
 Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 
