@@ -1,2 +1,2 @@
-colorscheme onedark
+colorscheme iceberg
 set background=dark

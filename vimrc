@@ -33,6 +33,7 @@ Plug 'jnurmine/zenburn'
 Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'joshdick/onedark.vim'
+Plug 'cocopon/iceberg.vim'
 
 " Plugins
 Plug 'editorconfig/editorconfig-vim'
