@@ -26,22 +26,22 @@ call plug#begin('~/.vim/plugged')
 
 " Color Schemes
 Plug 'arcticicestudio/nord-vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'cocopon/iceberg.vim'
 Plug 'gosukiwi/vim-atom-dark'
 Plug 'jacoborus/tender.vim'
-Plug 'rakr/vim-one'
 Plug 'jnurmine/zenburn'
-Plug 'morhetz/gruvbox'
-Plug 'ayu-theme/ayu-vim'
 Plug 'joshdick/onedark.vim'
-Plug 'cocopon/iceberg.vim'
+Plug 'morhetz/gruvbox'
+Plug 'rakr/vim-one'
 
 " Plugins
-Plug 'editorconfig/editorconfig-vim'
-Plug 'yggdroot/indentline'
 Plug 'dense-analysis/ale'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
-Plug 'ryanoasis/vim-devicons'
+Plug 'yggdroot/indentline'
 
 " Initialize plugin system
 call plug#end()
