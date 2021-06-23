@@ -34,6 +34,7 @@ Plug 'jnurmine/zenburn'
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 Plug 'rakr/vim-one'
+Plug 'dracula/vim'
 
 " Plugins
 Plug 'dense-analysis/ale'

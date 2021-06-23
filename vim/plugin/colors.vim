@@ -1,2 +1,2 @@
-colorscheme iceberg
+colorscheme dracula
 set background=dark
