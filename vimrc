@@ -43,6 +43,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'yggdroot/indentline'
+Plug 'fatih/vim-go'
 
 " Initialize plugin system
 call plug#end()
