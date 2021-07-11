@@ -17,5 +17,7 @@ set undodir=/.vim/undodir
 set undofile
 set incsearch
 set scrolloff=8
-set colorcolumn=80
 set signcolumn=yes
+
+" credit to Damian Conway for his OSCON 2013 VIM Talk on Youtube.
+call matchadd('ColorColumn', '\%81v', 100)
