@@ -1,7 +1,5 @@
 #!/bin/bash
 
-mkdir -p $HOME/.vim/plugin
-mkdir -p $HOME/.vim/after/plugin
 mkdir -p $HOME/.config/yamllint
 
 ln -s $(pwd)/configs/editorconfig $HOME/.editorconfig
