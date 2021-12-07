@@ -37,7 +37,7 @@ Plug 'rakr/vim-one'
 Plug 'dracula/vim'
 
 " Plugins
-Plug 'dense-analysis/ale'
+Plug 'w0rp/ale'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-fugitive'

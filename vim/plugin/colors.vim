@@ -1,2 +1,2 @@
-colorscheme dracula
+colorscheme nord
 set background=dark
